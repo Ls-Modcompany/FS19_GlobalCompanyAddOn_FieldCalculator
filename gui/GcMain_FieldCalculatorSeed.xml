@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<GUI>
+    <GuiElement type="image" template="gcMenuFieldCalculatorSeed">
+        <GuiElement type="image" template="gcMenuFieldCalculatorSeedBackground">
+            <GuiElement type="text" template="gcMenuFieldCalculatorHeader2" id="gui_header" />
+	    </GuiElement>
+
+        <GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout5">   
+            
+            <GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout6">   
+                <GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout2">   
+                    <GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="300px 35px" margin="0px 0px 0px 0px" id="gui_tableSort2" text="$l10n_GlobalCompanyAddOn_FieldCalculator_gui_fruit" />
+                    <GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="300px 35px" margin="3px 0px 0px 0px" id="gui_tableSort3" text="$l10n_GlobalCompanyAddOn_FieldCalculator_gui_usage" />
+                </GuiElement>
+
+                <GuiElement type="table" template="gcMenuFieldCalculatorTableLayout2" id="gui_fieldList">
+                    <GuiElement type="button" template="gcMenuFieldCalculatorTableLayoutButton2" isTableTemplate="true" >				
+                        <GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="20px 0px" onCreate="onCreateFruit" />	
+                        <GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="323px 0px" onCreate="onCreateLiter" />
+                    </GuiElement>
+                </GuiElement>	
+            </GuiElement>
+
+            <GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout7">
+                <GuiElement type="button" position="0px 0px" template="gcBaseGuiButton" inputAction="MENU_ACCEPT" onClick="onClickClose" />
+                <GuiElement type="text" template="gcBaseGuiButtonText" text="$l10n_GC_gui_buttons_ok" />    
+            </GuiElement>
+	    </GuiElement>
+	</GuiElement>
+</GUI>

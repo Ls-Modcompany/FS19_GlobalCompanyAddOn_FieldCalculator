@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="44">
+	<author>LS-Modcompany / kevink98</author>
+	
+    <version>1.0.0.0</version>
+    
+	<title>
+        <en>GlobalCompanyAddOn - Fieldcalculator</en>
+        <de>GlobalCompanyAddOn - Feldrechner</de>
+    </title>
+    
+	<description>
+        <en><![CDATA[Global CompanyAddOn - Fieldcalculator
+
+You want to know how much seed or fertilizer you need for a field? You can read it here!
+You can find the overview in the GlobalCompany menu.
+
+Information: Mod only playable in combination with GlobalCompany!]]></en>		
+		<de><![CDATA[Global CompanyAddOn - Feldrechner
+
+Du möchtest wissen, wie viel Saatgut oder Dünger für ein Feld brauchst? Hier kannst du es nachlesen!
+Die Übersicht findest du im GlobalCompany-Menü.
+
+Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>			
+    </description>
+    
+	<iconFilename>store_fieldcalculator.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <globalCompany minimumVersion="1.0.0.0">
+        <customClasses>
+            <customClass name="GC_AddOnFieldCalculator"/>
+        </customClasses>
+    </globalCompany>
+		
+    <extraSourceFiles>
+        <sourceFile filename="scripts/GC_Checker.lua" />
+        <sourceFile filename="scripts/GC_AddOnFieldCalculator.lua" />
+    </extraSourceFiles>
+</modDesc>

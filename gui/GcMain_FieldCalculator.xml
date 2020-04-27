@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<GUI>
+	<GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout1">   
+		<GuiElement type="text" template="gcMenuFieldCalculatorHeader" text="$l10n_GlobalCompanyAddOn_FieldCalculator_gui_header" />
+		
+		<GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout3">   
+			<GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout2">   
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="100px 35px" id="gui_tableSort" text="Feld" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort2" text="$l10n_fillType_lime" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort3" text="$l10n_fillType_fertilizer" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort4" text="$l10n_fillType_liquidFertilizer" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort5" text="$l10n_fillType_herbicide" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort6" text="$l10n_fillType_manure" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort7" text="$l10n_fillType_liquidManure" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort8" text="$l10n_fillType_digestate" />
+			</GuiElement>
+
+			<GuiElement type="table" template="gcMenuFieldCalculatorTableLayout" id="gui_fieldList">
+				<GuiElement type="button" template="gcMenuFieldCalculatorTableLayoutButton" isTableTemplate="true" onClick="onSelect">				
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="20px 0px" onCreate="onCreateField" />	
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="123px 0px" onCreate="onCreateLime" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="326px 0px" onCreate="onCreateFertilizer" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="529px 0px" onCreate="onCreateLiquidFertilizer" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="732px 0px" onCreate="onCreateHerbizid" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="935px 0px" onCreate="onCreateManure" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="1138px 0px" onCreate="onCreateLiquidManure" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="1341px 0px" onCreate="onCreateDigestate" />
+				</GuiElement>
+			</GuiElement>	
+		</GuiElement>
+
+		<GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout4">
+			<GuiElement type="button" position="0px 0px" template="gcBaseGuiButton" inputAction="MENU_ACCEPT" onClick="onClickOpenSeed" id="gui_btn_seed" />
+			<GuiElement type="text" template="gcBaseGuiButtonText" text="$l10n_GlobalCompanyAddOn_FieldCalculator_gui_seeds" id="gui_btn_seedText" />    
+		</GuiElement>
+	</GuiElement>	
+</GUI>

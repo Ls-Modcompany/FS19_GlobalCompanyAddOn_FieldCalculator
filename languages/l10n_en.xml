@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+	<elements>
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header" v="Fieldcalculator - Consum for seed and fertilizer"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_liter" v="%s Liter"/>	
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_seeds" v="Seedconsume"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_seedshead" v="Seedconsume for field %s"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_fruit" v="Fruit"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_usage" v="Consume"/>			
+	</elements>
+</l10n>
