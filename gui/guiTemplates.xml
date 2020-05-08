@@ -87,7 +87,7 @@
 		<template name="gcMenuFieldCalculatorTableLayout" anchor="leftTop" extends="gcBase">
 			<value name="orientation" value="y" />
 			<value name="alignment" value="top" />
-			<value name="size" value="1560px 760px" />
+			<value name="size" value="1760px 760px" />
 			<value name="position" value="0px -10px" />
 			<value name="maxItemsX" value="1" />
 			<value name="maxItemsY" value="17" />
@@ -155,7 +155,7 @@
 			<value name="imageColor_disabled" value="transparent" />
 		</template>
 		<template name="gcMenuFieldCalculatorTableLayoutButton" extends="gcBase">
-			<value name="size" value="1530px 40px" />
+			<value name="size" value="1730px 40px" />
 			<value name="hasOverlay" value="true" />
 			<value name="isActivable" value="true" />
 			<value name="canDeactivable" value="false" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+	<elements>
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header" v="Calculadora de campos - Consumo de semillas y fertilizantes"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_liter" v="%s Litros"/>	
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_seeds" v="Consumo de semillas"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_seedshead" v="Semillas para el campo %s"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_fruit" v="Planta"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_usage" v="Consumo"/>		
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_field" v="Campo"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_fieldSize" v="Tamaño Campo"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_fieldSize2" v="%s por ha"/>		
+	</elements>
+</l10n>

@@ -6,7 +6,8 @@
 		
 		<GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout3">   
 			<GuiElement type="flowLayout" template="gcMenuFieldCalculatorLayout2">   
-				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="100px 35px" id="gui_tableSort" text="Feld" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="100px 35px" id="gui_tableSort" text="$l10n_GlobalCompanyAddOn_FieldCalculator_gui_header_field" />
+				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="2px 0px 0px 0px" id="gui_tableSort9" text="$l10n_GlobalCompanyAddOn_FieldCalculator_gui_header_fieldSize" />
 				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort2" text="$l10n_fillType_lime" />
 				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort3" text="$l10n_fillType_fertilizer" />
 				<GuiElement type="tableSort" template="gcMenuFieldCalculatorTableHeader" tableSortSize="200px 35px" margin="3px 0px 0px 0px" id="gui_tableSort4" text="$l10n_fillType_liquidFertilizer" />
@@ -19,13 +20,14 @@
 			<GuiElement type="table" template="gcMenuFieldCalculatorTableLayout" id="gui_fieldList">
 				<GuiElement type="button" template="gcMenuFieldCalculatorTableLayoutButton" isTableTemplate="true" onClick="onSelect">				
 					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="20px 0px" onCreate="onCreateField" />	
-					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="123px 0px" onCreate="onCreateLime" />
-					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="326px 0px" onCreate="onCreateFertilizer" />
-					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="529px 0px" onCreate="onCreateLiquidFertilizer" />
-					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="732px 0px" onCreate="onCreateHerbizid" />
-					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="935px 0px" onCreate="onCreateManure" />
-					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="1138px 0px" onCreate="onCreateLiquidManure" />
-					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="1341px 0px" onCreate="onCreateDigestate" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="123px 0px" onCreate="onCreateFieldSize" />	
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="326px 0px" onCreate="onCreateLime" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="529px 0px" onCreate="onCreateFertilizer" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="732px 0px" onCreate="onCreateLiquidFertilizer" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="935px 0px" onCreate="onCreateHerbizid" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="1138px 0px" onCreate="onCreateManure" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="1341px 0px" onCreate="onCreateLiquidManure" />
+					<GuiElement type="text" template="gcMenuFieldCalculatorTableLayoutButtonText" position="1544px 0px" onCreate="onCreateDigestate" />
 				</GuiElement>
 			</GuiElement>	
 		</GuiElement>

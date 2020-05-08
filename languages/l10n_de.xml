@@ -7,5 +7,8 @@
 		<e k="GlobalCompanyAddOn_FieldCalculator_gui_seedshead" v="Saatgutverbrauch für Feld %s"/>			
 		<e k="GlobalCompanyAddOn_FieldCalculator_gui_fruit" v="Frucht"/>			
 		<e k="GlobalCompanyAddOn_FieldCalculator_gui_usage" v="Verbrauch"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_field" v="Feld"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_fieldSize" v="Feldgröße"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_fieldSize2" v="%s HA"/>			
 	</elements>
 </l10n>

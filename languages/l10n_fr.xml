@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+	<elements>
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header" v="Calculatrice de champ - Consommation de semences et d’engrais"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_liter" v="%s Litre"/>	
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_seeds" v="Consommation graines"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_seedshead" v="Consommation graines pur champ %s"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_fruit" v="Fruit"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_usage" v="Consommation"/>		
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_field" v="Champ"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_fieldSize" v="Taille champ"/>			
+		<e k="GlobalCompanyAddOn_FieldCalculator_gui_header_fieldSize2" v="%s ha"/>		
+	</elements>
+</l10n>

@@ -54,6 +54,12 @@ function Gc_Gui_AddOn_FieldCalculator:onCreateField(element)
 	end
 end
 
+function Gc_Gui_AddOn_FieldCalculator:onCreateFieldSize(element)
+	if self.currentFieldId ~= nil then
+		element:setText(string.format(g_company.languageManager:getText("GlobalCompanyAddOn_FieldCalculator_gui_header_fieldSize2"), g_i18n:formatNumber(self.currentFieldArea, 2)))
+	end
+end
+
 function Gc_Gui_AddOn_FieldCalculator:onCreateLime(element)
 	if self.currentFieldArea ~= nil then
 		local litersPerSecond = g_sprayTypeManager:getSprayTypeByName("LIME").litersPerSecond

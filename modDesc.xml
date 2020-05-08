@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="44">
+<modDesc descVersion="47">
 	<author>LS-Modcompany / kevink98</author>
 	
     <version>1.0.0.0</version>
@@ -7,27 +7,48 @@
 	<title>
         <en>GlobalCompanyAddOn - Fieldcalculator</en>
         <de>GlobalCompanyAddOn - Feldrechner</de>
+        <es>GlobalCompanyAddOn - Calculadora De Campos</es>
+        <fr>GlobalCompanyAddOn - Calculatrice De Champ</fr>
+        <it>GlobalCompanyAddOn - Calcolatore Di Campo</it>
     </title>
     
 	<description>
         <en><![CDATA[Global CompanyAddOn - Fieldcalculator
 
 You want to know how much seed or fertilizer you need for a field? You can read it here!
-You can find the overview in the GlobalCompany menu.
+You can find the overview in the GlobalCompany menu. To see the seed consumption, click on the corresponding line. Then you can open another window.
 
 Information: Mod only playable in combination with GlobalCompany!]]></en>		
 		<de><![CDATA[Global CompanyAddOn - Feldrechner
 
 Du möchtest wissen, wie viel Saatgut oder Dünger für ein Feld brauchst? Hier kannst du es nachlesen!
-Die Übersicht findest du im GlobalCompany-Menü.
+Die Übersicht findest du im GlobalCompany-Menü. Um den Saatgutverbrauch zu sehen, klicke auf die entsprechende Zeile. Dann kannst du ein weiteres Fenster öffnen.
 
-Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>			
+Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>		
+ <es><![CDATA[Global CompanyAddOn - Calculadora de campos
+
+¿Quieres saber cuánta semilla o fertilizante necesitas para un campo? ¡Puedes leerlo aquí!
+Puede encontrar el resumen en el menú GlobalCompany. Para ver el consumo de semillas, haga clic en la línea correspondiente. A continuación, puede abrir otra ventana.
+
+Información: Mod sólo jugable en combinación con GlobalCompany!]]></es>	
+ <fr><![CDATA[Global CompanyAddOn - Calculatrice de champ
+
+Vous voulez savoir combien de semences ou d’engrais vous avez besoin pour un champ? Vous pouvez le lire ici!
+Vous pouvez trouver la vue d’ensemble dans le menu GlobalCompany. Pour voir la consommation de semences, cliquez sur la ligne correspondante. Ensuite, vous pouvez ouvrir une autre fenêtre.
+
+Informations: Mod uniquement jouable en combinaison avec GlobalCompany!]]></fr>	
+ <it><![CDATA[Global CompanyAddOn - Calcolatore di campo
+
+Vuoi sapere quanto seme o fertilizzante ti serve per un campo? Puoi leggerlo qui!
+È possibile trovare la panoramica nel menu GlobalCompany. Per visualizzare il consumo di seme, fare clic sulla riga corrispondente. Quindi è possibile aprire un'altra finestra.
+
+Informazioni: Mod solo giocabile in combinazione con GlobalCompany]]></it>		
     </description>
     
 	<iconFilename>store_fieldcalculator.dds</iconFilename>
     <multiplayer supported="true"/>
 
-    <globalCompany minimumVersion="1.0.0.0">
+    <globalCompany minimumVersion="1.5.0.0">
         <customClasses>
             <customClass name="GC_AddOnFieldCalculator"/>
         </customClasses>
