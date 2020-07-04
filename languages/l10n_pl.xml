@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+	<elements>
+		<e k="GC_AddOn_FieldCalculator_gui_header" v="Fieldcalculator - Zużycie nasion i nawozu"/>			
+		<e k="GC_AddOn_FieldCalculator_gui_liter" v="%s Litrów"/>	
+		<e k="GC_AddOn_FieldCalculator_gui_seeds" v="Zużycie nasion"/>			
+		<e k="GC_AddOn_FieldCalculator_gui_seedshead" v="Zużycie nasion na polu %s"/>			
+		<e k="GC_AddOn_FieldCalculator_gui_fruit" v="Uprawa"/>			
+		<e k="GC_AddOn_FieldCalculator_gui_usage" v="Zużycie"/>		
+		<e k="GC_AddOn_FieldCalculator_gui_header_field" v="Pole"/>			
+		<e k="GC_AddOn_FieldCalculator_gui_header_fieldSize" v="Wielkość pola"/>			
+		<e k="GC_AddOn_FieldCalculator_gui_header_fieldSize2" v="%s HA"/>		
+	</elements>
+</l10n>
